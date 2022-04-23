@@ -11,6 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.main-content {
+  padding-top: 70px;
+}
 .nav {
   display: flex;
   align-items: center;
@@ -28,4 +32,18 @@ code {
   height: 25px;
   border-radius: 11px;
   margin: 5px;
+}
+
+.destination-image {
+  width: 300px;
+  padding-right: 100px;
+}
+
+.destination {
+  display: flex;
+  padding-left: 100px;
+}
+
+.description {
+  padding-right: 100px;
 }
