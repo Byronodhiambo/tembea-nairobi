@@ -4,17 +4,24 @@ import "./index.css";
 import Header from "./components/Header";
 import reportWebVitals from "./reportWebVitals";
 import Destination from "./components/Destination";
+import DestinationData from "./components/DestinationData";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+const destination = DestinationData.map((dest) => {
+  return (
+    <Destination
+      image={dest.image}
+      location={dest.location}
+      name={dest.name}
+      description={dest.description}
+    />
+  );
+});
 root.render(
   <>
     <Header />
-    <div className="main-content">
-      <Destination />
-      <Destination />
-
-      <Destination />
-    </div>
+    <div className="main-content"></div>
+    {destination}
   </>
 );
 

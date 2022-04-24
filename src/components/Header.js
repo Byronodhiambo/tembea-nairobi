@@ -6,9 +6,8 @@ export default function Header() {
     <>
       <nav className="nav">
         <img src={earth} className="nav-image" />
-        <h3>Tembea Kenya leo</h3>
+        <h2>Tembea Nairobi leo</h2>
       </nav>
-      >
     </>
   );
 }

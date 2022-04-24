@@ -1,32 +1,28 @@
 import React from "react";
-import david from "../images/earth.png";
+// import David from "images/David.jpg";
+// import Nairobi from "images/Nairobi.jpg";
+// import Giraffe from "images/Giraffe.jpg";
+// import Karura from "images/Karura.jpg";
+// import Karen from "images/Karen.jpg";
 
-export default function Destination() {
+export default function Destination(props) {
   return (
     <>
       <div className="destination">
-        <img src={david} className="destination-image" />
-        <div>
-          <i class="fa fa-map-marker" aria-hidden="true"></i>
-          <p>Nairobi central</p>
-          <h1>
-            <p>David Sheldrick Wildlife Trust </p>
-          </h1>
-          <p className="description">
-            “The Sheldrick Wildlife Trust embraces all measures that complement
-            the conservation, preservation and protection of wildlife. These
-            include anti-poaching, safe guarding the natural environment,
-            enhancing community awareness, addressing animal welfare issues,
-            providing veterinary assistance to animals in need, rescuing and
-            hand rearing elephant and rhino orphans, along with other species
-            that can ultimately enjoy a quality of life in wild terms when
-            grown.”[1] The Sheldrick Wildlife Trust works closely with the Kenya
-            Wildlife Service, the Kenya Forest Service and local communities to
-            achieve their long term goal to secure safe havens for wildlife,
-            through the effective management and protection of key ecosystems
-            and wilderness areas in Kenya.{" "}
-          </p>
+        <div className="destination-card">
+          <div className="dest-image-bx">
+            <img src={props.image} className="destination-image" />
+          </div>
+          <div>
+            <div className="location">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <p>{props.location}</p>
+            </div>
+            <h1>{props.name}</h1>
+            <p className="description">{props.description}</p>
+          </div>
         </div>
+        <hr className="hr" />
       </div>
     </>
   );
