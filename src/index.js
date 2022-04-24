@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import reportWebVitals from "./reportWebVitals";
 import Destination from "./components/Destination";
 import DestinationData from "./components/DestinationData";
+import Footer from "./components/Footer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const destination = DestinationData.map((dest) => {
@@ -22,6 +23,7 @@ root.render(
     <Header />
     <div className="main-content"></div>
     {destination}
+    <Footer />
   </>
 );
 

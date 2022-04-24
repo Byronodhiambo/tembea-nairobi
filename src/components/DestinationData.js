@@ -6,14 +6,7 @@ export default [
     description:
       "The Sheldrick Wildlife Trust embraces all measures that complement the conservation, preservation and protection of wildlife. These include anti-poaching, safe guarding the natural environment, enhancing community awareness, addressing animal welfare issues, providing veterinary assistance to animals in need, rescuing and hand rearing elephant and rhino orphans, along with other species that can ultimately enjoy a quality of life in wild terms when grown.”[1] The Sheldrick Wildlife Trust works closely with the Kenya Wildlife Service, the Kenya Forest Service and local communities to achieve their long term goal to secure safe havens for wildlife, through the effective management and protection of key ecosystems and wilderness areas in Kenya.",
   },
-  {
-    image: "images/Nairobi.jpg",
-    location:
-      "EDUCATION CENTRE, Karen KWS SAFARI WALK, Animal Orphanage Road, Nairobi",
-    name: "Nairobi National Park",
-    description:
-      "Nairobi National Park is a national park in Kenya that was established in 1946 about 7 km (4.3 mi) south of Nairobi. It is fenced on three sides, whereas the open southern boundary allows migrating wildlife to move between the park and the adjacent Kitengela plains. Herbivores gather in the park during the dry season. Nairobi National Park is negatively affected by increasing human and livestock populations, changing land use and poaching of wildlife.[2] Despite its proximity to the city and its relative small size, it boasts a large and varied wildlife population,[3] and is one of Kenya's most successful rhinoceros sanctuaries.",
-  },
+
   {
     image: "images/Giraffe.jpg",
     location: "KWS Central Workshop Gate, Off Magadi Rd, Nairobi",
@@ -34,5 +27,13 @@ export default [
     name: "Karen Blixen Museum",
     description:
       "One of Nairobi's top tourist attractions, the Karen Blixen Museum, at the foot of the Ngong Hills, is the former home of the famous namesake Out of Africa author. Karen Blixen, also known by her pen name, Isak Dinesen, lived in the house from 1917 to 1931, where she ran a coffee plantation. Today, you can tour the well-preserved colonial farmhouse, a kitchen in a separate building, a coffee-drying plant in the woodland, and an agricultural college on the grounds. Furniture that belonged to Karen Blixen and her husband is on display, as well as photographs and books owned by Karen and her lover, Denys Finch Hatton. Enthusiastic guides bring the story of Karen Blixen and colonial Kenya to life.",
+  },
+  {
+    image: "images/Nairobi.jpg",
+    location:
+      "EDUCATION CENTRE, Karen KWS SAFARI WALK, Animal Orphanage Road, Nairobi",
+    name: "Nairobi National Park",
+    description:
+      "Nairobi National Park is a national park in Kenya that was established in 1946 about 7 km (4.3 mi) south of Nairobi. It is fenced on three sides, whereas the open southern boundary allows migrating wildlife to move between the park and the adjacent Kitengela plains. Herbivores gather in the park during the dry season. Nairobi National Park is negatively affected by increasing human and livestock populations, changing land use and poaching of wildlife.[2] Despite its proximity to the city and its relative small size, it boasts a large and varied wildlife population,[3] and is one of Kenya's most successful rhinoceros sanctuaries.",
   },
 ];

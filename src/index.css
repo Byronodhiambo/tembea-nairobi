@@ -19,7 +19,7 @@ code {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: crimson;
+  background-color: #c42351;
   color: aliceblue;
   position: fixed;
   overflow: hidden;
@@ -35,14 +35,15 @@ code {
 }
 
 .dest-image-bx {
-  width: 900px;
+  width: 1000px;
   padding-right: 100px;
-  border-radius: 25px;
-  overflow: hidden;
 }
 
 .destination-image {
   width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 25px;
 }
 
 .destination {
@@ -78,4 +79,26 @@ code {
   height: 1px;
   border-width: 0;
   background-color: #e1e3e1;
+}
+
+.footer-container {
+  justify-content: center;
+  padding: 100px;
+  background-color: #e1e3e1;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.footer-container div {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.footer-container .fa {
+  font-size: 40px;
+  padding: 10px;
+}
+
+.fa-address-book {
+  font-size: 20px;
 }
